@@ -1,3 +1,3 @@
 # study
-projects created during frontend training
-test work github
+Репозиторий с моими рабочими проектами, появляющимися по ходу обучения frontend-разработке
+Stepik html & css - прохождение курса для новичков на платформе stepic https://stepik.org/course/38218/
