@@ -1,3 +1,0 @@
-I wrote in the text file
-I add this string in GitHub
-This sting in the new Branch
