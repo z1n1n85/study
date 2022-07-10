@@ -19,6 +19,12 @@ p
     font-size: 32px;
     line-height: 38px;
     color: #000000;
+    margin: 40px 0 0 0;
+}
+
+h2 + p
+{
+    margin: 16px 0 0 0;
 }
 
 h1
@@ -41,6 +47,7 @@ h2
     line-height: 75px;
     text-align: center;
     color: #007765;
+    margin: 0;
 }
 
 .header_empty
@@ -101,7 +108,75 @@ h2
     padding: 128px 55px 128px;
 }
 
+.hero p
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .the_problem, .the_team, .ppc
 {
     padding: 48px 55px 92px;
+}
+
+.ppc img + p
+{
+    margin: 16px 0 0 0;
+}
+
+.ppc img
+{
+    float: left;
+    margin: 16px 48px 0 0;
+}
+
+.team_member_deck
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_member_card
+{
+    width: 350px;
+    height: 283px;
+    margin: 30px 15px 0;
+}
+
+.team_member_card img
+{
+    width: 168px;
+    height: 168px;
+    margin: 24px 91px 0;
+}
+
+.name
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+    margin: 12px 0 0;
+}
+
+.post
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px; 
+    text-align: center;
+    margin: 0 auto 28px; 
 }
