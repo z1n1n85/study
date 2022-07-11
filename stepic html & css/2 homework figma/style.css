@@ -1,19 +1,15 @@
-body
-{
-    width:1219px;
+/* General settings */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
     margin: 0px auto;
 }
 
-.block
-{
-    width:1219px;
-    padding: 0px 55px;
-    margin: 0px;
-}
-
-p
-{
-    font-family: 'Roboto',  sans-serif;
+p{
+    font-family: Roboto,  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -22,13 +18,11 @@ p
     margin: 40px 0 0 0;
 }
 
-h2 + p
-{
+h2 + p{
     margin: 16px 0 0 0;
 }
 
-h1
-{
+h1{
     font-family: 'Roboto',  sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -38,8 +32,7 @@ h1
     color: #FFFFFF;
 }
 
-h2
-{
+h2{
     font-family: 'Roboto',  sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -50,31 +43,43 @@ h2
     margin: 0;
 }
 
-.header_empty
-{
+.backgroung{
+    width: 100%;
+}
+
+.block{
+    width: 80%;
+    max-width:1219px;
+    margin: 0px auto;
+    padding: 0 55px;
+}
+
+/* Header settings */
+
+.backgroung.header{
+    background-color: #007765;
+    position: fixed;
     height: 84px;
 }
 
-.header
-{
-    background-color: #007765;
-    padding: 20px 55px 20px;
-    position: fixed;
-    height: 44px;
+.header_empty{
+    height: 84px;
 }
 
-.header img
-{
-    display: inline-block;
-    position: absolute;
+.header .block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 55px 20px;
+}
+
+.logo{
     left: 55px;
     margin: 0;
 }
 
-.header p
-{
-    display: inline-block;
-    position: absolute;
+.header .block p{
     right: 55px;
     top: 28px;
     margin: 0;
@@ -84,42 +89,30 @@ h2
     color: #FFFFFF;
 }
 
-.header a, .header a:visited, .header a:active
-{
+.header a, .header a:visited, .header a:active{
     color: #FFFFFF;
 }
 
-.jumbotron
-{
+/* Jumbotron settings */
+
+.jumbotron{
     background-image: url(images/Jumbotron.jpg);
     background-size: cover;
+
+}
+
+.jumbotron .block{
     padding: 160px 55px 160px;
 }
+
+/* The_problem, PPC settings */
 
 .the_problem, .the_team
 {
     background: #EEEEEE;
 }
 
-.hero
-{
-    background-image: url(images/Hero.jpg);
-    background-size: cover;
-    padding: 128px 55px 128px;
-}
-
-.hero p
-{
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.the_problem, .the_team, .ppc
+.the_problem .block, .ppc .block
 {
     padding: 48px 55px 92px;
 }
@@ -135,6 +128,36 @@ h2
     margin: 16px 48px 0 0;
 }
 
+/* Hero settings */
+
+.hero .block{
+    padding: 128px 55px 128px;
+}
+
+.hero
+{
+    background-image: url(images/Hero.jpg);
+    background-size: cover;
+
+}
+
+.hero p
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* The_team settings */
+
+.the_team .block{
+    padding: 48px 40px 92px;
+}
+
 .team_member_deck
 {
     display: flex;
@@ -148,7 +171,6 @@ h2
 {
     width: 350px;
     height: 283px;
-    margin: 30px 15px 0;
 }
 
 .team_member_card img
@@ -179,4 +201,24 @@ h2
     line-height: 21px; 
     text-align: center;
     margin: 0 auto 28px; 
+}
+
+/* Basement settings */
+
+.basement
+{
+    background-color: #333333;
+    padding: 48px 55px 64px;
+}
+
+.basement p
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 295px;
 }
